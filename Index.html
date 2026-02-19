@@ -1,0 +1,91 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Profile</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #0f766e, #22d3ee);
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      background: rgba(0, 0, 0, 0.35);
+      backdrop-filter: blur(8px);
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 380px;
+      width: 100%;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+    .avatar {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid rgba(255,255,255,0.6);
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 26px;
+      font-weight: 700;
+    }
+    p {
+      margin: 6px 0;
+      font-size: 15px;
+      opacity: 0.9;
+    }
+    .buttons {
+      margin-top: 20px;
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .btn {
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 25px;
+      background: #22d3ee;
+      color: #083344;
+      font-weight: 600;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+    footer {
+      margin-top: 18px;
+      font-size: 12px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <!-- Replace src with your image file name -->
+    <img src="profile.png" alt="Profile Image" class="avatar" /><h1>Your Name</h1>
+<p>Creative • Designer • Developer</p>
+<p>This website is built to showcase a personal image and basic profile information.</p>
+
+<div class="buttons">
+  <a href="#" class="btn">About</a>
+  <a href="#" class="btn">Gallery</a>
+  <a href="#" class="btn">Contact</a>
+</div>
+
+<footer>
+  © 2026 Your Name. All rights reserved.
+</footer>
+
+  </div>
+</body>
+</html>
